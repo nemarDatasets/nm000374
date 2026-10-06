@@ -1,0 +1,396 @@
+{
+  "copied_sourcedata": [
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG040/bids/sourcedata/zenodo-14885382/sub01_raw_data.mat",
+      "bytes": 610469310,
+      "sha256": "ea9ae981354ead6146c10b87b7df6424c2f3d54cf7e372f3f0f84620e25c5bcd"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG040/bids/sourcedata/zenodo-14885382/sub02_raw_data.mat",
+      "bytes": 678516398,
+      "sha256": "fd08dfb5967cd2e99ea7926abd5ecc643cac9f2f52e015b6e6c98ceccda0aa31"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG040/bids/sourcedata/zenodo-14885382/sub03_raw_data.mat",
+      "bytes": 662576414,
+      "sha256": "69fbc69bec0ff9ef45bfefba1b7ec540bd81ddbe266d20c6667989c55e391977"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG040/bids/sourcedata/zenodo-14885382/sub04_raw_data.mat",
+      "bytes": 1186692132,
+      "sha256": "643fe90891c9ba2792389cf50577d4e2cdc5b5f2d7178295f9b201172c8cbf48"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG040/bids/sourcedata/zenodo-14885382/sub05_raw_data.mat",
+      "bytes": 1163922972,
+      "sha256": "9d4ec4ee3887e180545896e89d30abef3f283ecf27c4149e435f4445da7b5c49"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG040/bids/sourcedata/zenodo-14885382/sub06_raw_data.mat",
+      "bytes": 829260665,
+      "sha256": "01c485a127d07475d803d43c51a47ad98b23d08f532dc2304226065e518b0510"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG040/bids/sourcedata/zenodo-14885382/sub07_raw_data.mat",
+      "bytes": 930373577,
+      "sha256": "411a0a9c454056d469ba34eead010b429ba640224d1e28754fa0f68d39b7b349"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG040/bids/sourcedata/zenodo-14885382/sub08_raw_data.mat",
+      "bytes": 972750037,
+      "sha256": "0f527d764f9ea5509ca6b55c74bd5d11fb379fbd9795ef5378be2316935f2f8f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG040/bids/sourcedata/zenodo-14885382/sub09_raw_data.mat",
+      "bytes": 685105539,
+      "sha256": "7fbf799a83802ce36bf0c114fb4e4f8eaf41c3294d886be32adf00c50fc4085f"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG040/bids/sourcedata/zenodo-14885382/sub10_raw_data.mat",
+      "bytes": 932960032,
+      "sha256": "45dbc188edb0dc34cd5f73a26ea7c695b8becf4c21782b462b38bb919ec0c3f0"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG040/bids/sourcedata/zenodo-14885382/sub11_raw_data.mat",
+      "bytes": 907522993,
+      "sha256": "23647854eafb970b1f33792dcaa9483d78889583737df0d45eed041cdba6d6a6"
+    },
+    {
+      "file": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/IEEG040/bids/sourcedata/zenodo-14885382/zenodo_record_14885382.json",
+      "bytes": 6331,
+      "sha256": "285f8e81ac4099348eed276690347b426fb6a0c2161bc2a0b8716055b982cb66"
+    }
+  ],
+  "runs": [
+    {
+      "sub": "01",
+      "task": "learning",
+      "source": "sub01_raw_data.mat",
+      "variable": "Raw_ieeg_data_learning",
+      "shape_channels_samples": [
+        103,
+        827168
+      ],
+      "n_markers": 404,
+      "behavioral_data_shape": [
+        2,
+        402
+      ]
+    },
+    {
+      "sub": "01",
+      "task": "sleeptmr",
+      "source": "sub01_raw_data.mat",
+      "variable": "Raw_ieeg_data_tmr",
+      "shape_channels_samples": [
+        103,
+        475349
+      ],
+      "n_markers": 150,
+      "behavioral_data_shape": [
+        2,
+        402
+      ]
+    },
+    {
+      "sub": "02",
+      "task": "learning",
+      "source": "sub02_raw_data.mat",
+      "variable": "Raw_ieeg_data_learning",
+      "shape_channels_samples": [
+        114,
+        868110
+      ],
+      "n_markers": 456,
+      "behavioral_data_shape": [
+        2,
+        428
+      ]
+    },
+    {
+      "sub": "02",
+      "task": "sleeptmr",
+      "source": "sub02_raw_data.mat",
+      "variable": "Raw_ieeg_data_tmr",
+      "shape_channels_samples": [
+        114,
+        732343
+      ],
+      "n_markers": 230,
+      "behavioral_data_shape": [
+        2,
+        428
+      ]
+    },
+    {
+      "sub": "03",
+      "task": "learning",
+      "source": "sub03_raw_data.mat",
+      "variable": "Raw_ieeg_data_learning",
+      "shape_channels_samples": [
+        106,
+        427674
+      ],
+      "n_markers": 260,
+      "behavioral_data_shape": [
+        2,
+        330
+      ]
+    },
+    {
+      "sub": "03",
+      "task": "sleeptmr",
+      "source": "sub03_raw_data.mat",
+      "variable": "Raw_ieeg_data_tmr",
+      "shape_channels_samples": [
+        106,
+        950327
+      ],
+      "n_markers": 300,
+      "behavioral_data_shape": [
+        2,
+        330
+      ]
+    },
+    {
+      "sub": "04",
+      "task": "learning",
+      "source": "sub04_raw_data.mat",
+      "variable": "Raw_ieeg_data_learning",
+      "shape_channels_samples": [
+        113,
+        1363811
+      ],
+      "n_markers": 850,
+      "behavioral_data_shape": [
+        2,
+        625
+      ]
+    },
+    {
+      "sub": "04",
+      "task": "sleeptmr",
+      "source": "sub04_raw_data.mat",
+      "variable": "Raw_ieeg_data_tmr",
+      "shape_channels_samples": [
+        113,
+        952493
+      ],
+      "n_markers": 300,
+      "behavioral_data_shape": [
+        2,
+        625
+      ]
+    },
+    {
+      "sub": "05",
+      "task": "learning",
+      "source": "sub05_raw_data.mat",
+      "variable": "Raw_ieeg_data_learning",
+      "shape_channels_samples": [
+        110,
+        1383831
+      ],
+      "n_markers": 612,
+      "behavioral_data_shape": [
+        2,
+        506
+      ]
+    },
+    {
+      "sub": "05",
+      "task": "sleeptmr",
+      "source": "sub05_raw_data.mat",
+      "variable": "Raw_ieeg_data_tmr",
+      "shape_channels_samples": [
+        110,
+        952491
+      ],
+      "n_markers": 300,
+      "behavioral_data_shape": [
+        2,
+        506
+      ]
+    },
+    {
+      "sub": "06",
+      "task": "learning",
+      "source": "sub06_raw_data.mat",
+      "variable": "Raw_ieeg_data_learning",
+      "shape_channels_samples": [
+        110,
+        708398
+      ],
+      "n_markers": 392,
+      "behavioral_data_shape": [
+        2,
+        396
+      ]
+    },
+    {
+      "sub": "06",
+      "task": "sleeptmr",
+      "source": "sub06_raw_data.mat",
+      "variable": "Raw_ieeg_data_tmr",
+      "shape_channels_samples": [
+        110,
+        951059
+      ],
+      "n_markers": 300,
+      "behavioral_data_shape": [
+        2,
+        396
+      ]
+    },
+    {
+      "sub": "07",
+      "task": "learning",
+      "source": "sub07_raw_data.mat",
+      "variable": "Raw_ieeg_data_learning",
+      "shape_channels_samples": [
+        101,
+        1081288
+      ],
+      "n_markers": 558,
+      "behavioral_data_shape": [
+        2,
+        479
+      ]
+    },
+    {
+      "sub": "07",
+      "task": "sleeptmr",
+      "source": "sub07_raw_data.mat",
+      "variable": "Raw_ieeg_data_tmr",
+      "shape_channels_samples": [
+        101,
+        952491
+      ],
+      "n_markers": 300,
+      "behavioral_data_shape": [
+        2,
+        479
+      ]
+    },
+    {
+      "sub": "08",
+      "task": "learning",
+      "source": "sub08_raw_data.mat",
+      "variable": "Raw_ieeg_data_learning",
+      "shape_channels_samples": [
+        110,
+        998554
+      ],
+      "n_markers": 614,
+      "behavioral_data_shape": [
+        2,
+        507
+      ]
+    },
+    {
+      "sub": "08",
+      "task": "sleeptmr",
+      "source": "sub08_raw_data.mat",
+      "variable": "Raw_ieeg_data_tmr",
+      "shape_channels_samples": [
+        110,
+        951060
+      ],
+      "n_markers": 300,
+      "behavioral_data_shape": [
+        2,
+        507
+      ]
+    },
+    {
+      "sub": "09",
+      "task": "learning",
+      "source": "sub09_raw_data.mat",
+      "variable": "Raw_ieeg_data_learning",
+      "shape_channels_samples": [
+        95,
+        647222
+      ],
+      "n_markers": 442,
+      "behavioral_data_shape": [
+        2,
+        421
+      ]
+    },
+    {
+      "sub": "09",
+      "task": "sleeptmr",
+      "source": "sub09_raw_data.mat",
+      "variable": "Raw_ieeg_data_tmr",
+      "shape_channels_samples": [
+        95,
+        952491
+      ],
+      "n_markers": 300,
+      "behavioral_data_shape": [
+        2,
+        421
+      ]
+    },
+    {
+      "sub": "10",
+      "task": "learning",
+      "source": "sub10_raw_data.mat",
+      "variable": "Raw_ieeg_data_learning",
+      "shape_channels_samples": [
+        115,
+        842152
+      ],
+      "n_markers": 596,
+      "behavioral_data_shape": [
+        2,
+        548
+      ]
+    },
+    {
+      "sub": "10",
+      "task": "sleeptmr",
+      "source": "sub10_raw_data.mat",
+      "variable": "Raw_ieeg_data_tmr",
+      "shape_channels_samples": [
+        115,
+        952490
+      ],
+      "n_markers": 300,
+      "behavioral_data_shape": [
+        2,
+        548
+      ]
+    },
+    {
+      "sub": "11",
+      "task": "learning",
+      "source": "sub11_raw_data.mat",
+      "variable": "Raw_ieeg_data_learning",
+      "shape_channels_samples": [
+        112,
+        1018626
+      ],
+      "n_markers": 608,
+      "behavioral_data_shape": [
+        2,
+        504
+      ]
+    },
+    {
+      "sub": "11",
+      "task": "sleeptmr",
+      "source": "sub11_raw_data.mat",
+      "variable": "Raw_ieeg_data_tmr",
+      "shape_channels_samples": [
+        112,
+        952490
+      ],
+      "n_markers": 300,
+      "behavioral_data_shape": [
+        2,
+        504
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sample": {
+    "Description": "0-based sample index in the recording (= source_value - 1)"
+  },
+  "trial_type": {
+    "Description": "Marker type",
+    "Levels": {
+      "stimulus_marker": "Stimulus marker stored by the authors in mark_tmr. The release does not label which stimulus (item, cued/uncued) each marker belongs to."
+    }
+  },
+  "source_variable": {
+    "Description": "MATLAB variable in the source .mat holding the marker"
+  },
+  "source_value": {
+    "Description": "Marker value exactly as stored (MATLAB 1-based sample index into Raw_ieeg_data_tmr); onset = (source_value - 1) / 512 s"
+  },
+  "marker_number": {
+    "Description": "Order of the marker in the source vector"
+  }
+}

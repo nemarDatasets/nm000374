@@ -1,0 +1,65 @@
+{
+  "Name": "Electrophysiological signatures underlying variability in human memory consolidation: raw intracranial EEG (learning and sleep TMR)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Wei Duan",
+    "Zhansheng Xu",
+    "Dong Chen",
+    "Jing Wang",
+    "Jiali Liu",
+    "Zheng Tan",
+    "Xue Xiao",
+    "Pengcheng Lv",
+    "Mengyang Wang",
+    "Ken A. Paller",
+    "Nikolai Axmacher",
+    "Liang Wang"
+  ],
+  "Acknowledgements": "Data release: Zenodo record 14885382 (creator: Wei Duan). BIDS conversion: ieeg-nemar-20261005 campaign (batch-2 Zenodo lane); no signal processing applied.",
+  "HowToAcknowledge": "Please cite Duan W, Xu Z, et al. (2025) Electrophysiological signatures underlying variability in human memory consolidation. Nat Commun 16:2472. doi:10.1038/s41467-025-57766-x, and the data record doi:10.5281/zenodo.14885382.",
+  "Funding": [
+    "National Natural Science Foundation of China (32020103009, awarded to L.W.)",
+    "STI2030-Major Projects (2022ZD0205000, awarded to L.W.)",
+    "National Key Research and Development Program of China (2024YFF1206500, awarded to L.W.)",
+    "Ministry Key Project (GW0890006, awarded to L.W.)",
+    "Scientific Foundation of the Institute of Psychology, Chinese Academy of Sciences (E2CX4215CX, awarded to L.W.)",
+    "ERC grant agreement 864164 (ERC-CoG GridRepresentations, awarded to N.A.)"
+  ],
+  "EthicsApprovals": [
+    "Informed consent was obtained from all participants and study procedures were approved by the ethical committee of Beijing Sanbo brain hospital (Duan et al. 2025, Methods)."
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1038/s41467-025-57766-x",
+    "https://doi.org/10.5281/zenodo.14885382",
+    "https://doi.org/10.5281/zenodo.14583770"
+  ],
+  "DatasetDOI": "doi:10.5281/zenodo.14885382",
+  "Keywords": [
+    "intracranial EEG",
+    "stereo-EEG",
+    "memory consolidation",
+    "targeted memory reactivation",
+    "sleep",
+    "NREM",
+    "hippocampus",
+    "ripples",
+    "object-location memory",
+    "epilepsy"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5281/zenodo.14885382",
+      "URL": "https://zenodo.org/records/14885382",
+      "Version": "Zenodo record 14885382 (published 2025-02-18)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "b2zen_convert040.py",
+      "Description": "Lossless re-packaging of the authors' MATLAB arrays into BrainVision (float32) with BIDS sidecars; no filtering, resampling, re-referencing or channel removal.",
+      "CodeURL": "n/a"
+    }
+  ]
+}

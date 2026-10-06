@@ -1,0 +1,49 @@
+{
+  "participant_id": {
+    "Description": "BIDS subject label = number in the release file name (subNN_raw_data.mat)"
+  },
+  "source_id": {
+    "Description": "Subject identifier in the Zenodo release (file name stem)"
+  },
+  "age": {
+    "Description": "Age in years. Not reported per participant; group: mean 23.9 +/- 5.4 (SD) years (Duan et al. 2025, Methods)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Not reported per participant; group: 2 females, 9 males (Duan et al. 2025, Methods)",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "group": {
+    "Description": "Patients with medically refractory temporal lobe epilepsy implanted with depth electrodes",
+    "Levels": {
+      "patient": "epilepsy patient"
+    }
+  },
+  "total_recording_sites": {
+    "Description": "Total recording sites (Duan et al. 2025, Supplementary Table S1); equals the channel count of the release"
+  },
+  "hippocampal_contacts": {
+    "Description": "Number of hippocampal contacts (Supplementary Table S1)"
+  },
+  "electrode_laterality": {
+    "Description": "Implanted hemisphere(s) (Supplementary Table S1)",
+    "Levels": {
+      "L": "left",
+      "R": "right",
+      "Bilateral": "both"
+    }
+  },
+  "seizure_onset_zone": {
+    "Description": "Seizure onset zone as reported in Supplementary Table S1 (MTL: medial temporal lobe; LTL: lateral temporal lobe; IPL: inferior parietal lobule)"
+  },
+  "seizure_laterality": {
+    "Description": "Seizure laterality (Supplementary Table S1)",
+    "Levels": {
+      "L": "left",
+      "R": "right"
+    }
+  }
+}

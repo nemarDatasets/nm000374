@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "No electrode coordinates are included in the source release (Zenodo 14885382). The paper localized contacts by co-registering post-implantation CT to pre-operative T1 MRI (FreeSurfer v6.0.0), but those positions were not released; x, y, z are therefore n/a."
+}
