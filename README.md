@@ -116,3 +116,9 @@ enrichment 2026-10-07 (see CHANGES).
 
 ## Licence
 CC BY 4.0, as stated on the Zenodo record (metadata license id `cc-by-4.0`).
+
+## Ethics approval
+
+Verbatim from Duan W, Xu Z, Chen D, Wang J, et al. (2025). Electrophysiological signatures underlying variability in human memory consolidation. Nature Communications 16:2472. https://doi.org/10.1038/s41467-025-57766-x, Methods, "Participants":
+
+> Informed consent was obtained from all participants and study procedures were approved by the ethical committee of Beijing Sanbo brain hospital.
