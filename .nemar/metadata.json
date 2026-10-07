@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Electrophysiological signatures underlying variability in human memory consolidation: raw intracranial EEG (learning and sleep TMR)",
+  "description": "Raw stereo-EEG (intracranial EEG) recordings from 11 patients with medically refractory temporal lobe epilepsy at Sanbo Brain Hospital, Beijing. Data were acquired during learning of object-location associations and during targeted memory reactivation (TMR) with sounds in NREM sleep. The dataset supports investigation of electrophysiological signatures, such as hippocampal ripples and sleep spindles, that underlie variability in human memory consolidation. It is re-packaged in iEEG-BIDS from the authors' Zenodo release.",
+  "methods_description": "Depth electrode (SEEG) recordings were acquired with a Nicolet system (128 channels, 512 Hz). In the learning task, 50 objects were associated with grid locations until criterion was reached. In the sleep task, 25 cued sounds and 25 control sounds were presented during NREM stage 2/3, detected via scalp EEG, with low-intensity white noise in the background. Raw MATLAB arrays were losslessly converted to BrainVision float32 format with BIDS sidecars.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "Wei Duan": {},
     "Zhansheng Xu": {},
@@ -23,6 +28,33 @@
       "orcid": "0000-0001-9434-7571"
     }
   },
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "memory consolidation"
+    },
+    {
+      "term": "targeted memory reactivation"
+    },
+    {
+      "term": "sleep"
+    },
+    {
+      "term": "Hippocampus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.14885382",
@@ -87,14 +119,11 @@
       "award_title": "ERC-CoG GridRepresentations"
     }
   ],
-  "title": "Electrophysiological signatures underlying variability in human memory consolidation: raw intracranial EEG (learning and sleep TMR)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "16.96 GB (56 files)"
   ],
@@ -108,34 +137,5 @@
     ".vmrk",
     ".yml"
   ],
-  "description": "Raw stereo-EEG (intracranial EEG) recordings from 11 patients with medically refractory temporal lobe epilepsy at Sanbo Brain Hospital, Beijing. Data were collected during learning of object-location associations and during targeted memory reactivation (TMR) with sounds in NREM sleep. The dataset supports investigation of electrophysiological signatures, such as hippocampal ripples and sleep spindles, that underlie variability in human memory consolidation. Data are repackaged in iEEG-BIDS from the authors' Zenodo release without signal processing.",
-  "methods_description": "Depth electrode recordings were acquired with a Nicolet system (128 channels, 512 Hz) using 8-16 contact depth electrodes. Participants learned 50 object-location associations, then slept while 25 learned sounds and 25 control sounds were presented during NREM stage 2/3 (detected with scalp EEG). Segments were extracted from 10 s before the first stimulus to 10 s after the last. Original arrays were converted losslessly to BrainVision float32 with no filtering, resampling, or re-referencing.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "stereo-EEG"
-    },
-    {
-      "term": "memory consolidation"
-    },
-    {
-      "term": "targeted memory reactivation"
-    },
-    {
-      "term": "sleep"
-    },
-    {
-      "term": "Hippocampus",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    }
-  ],
-  "source_hash": "0057263308a933afc9c9e8d26459d8ad6a0a582ec871136e31adc03e86a7e57b"
+  "source_hash": "3637abe36ff1c415c7e694e6871827a5cf06d4b3c28a10ab733e52bf1906933d"
 }
