@@ -17,7 +17,7 @@
     "Nikolai Axmacher",
     "Liang Wang"
   ],
-  "Acknowledgements": "Data release: Zenodo record 14885382 (creator: Wei Duan). BIDS conversion: ieeg-nemar-20261005 campaign (batch-2 Zenodo lane); no signal processing applied.",
+  "Acknowledgements": "Data release: Zenodo record 14885382 (creator: Wei Duan). BIDS conversion: ieeg-nemar-20261005 campaign (batch-2 Zenodo lane); no signal processing applied. The paper also thanks the Core Facilities of the Institute of Psychology, CAS, for support (Duan et al. 2025 Nat Commun 16:2472, doi:10.1038/s41467-025-57766-x, Acknowledgements).",
   "HowToAcknowledge": "Please cite Duan W, Xu Z, et al. (2025) Electrophysiological signatures underlying variability in human memory consolidation. Nat Commun 16:2472. doi:10.1038/s41467-025-57766-x, and the data record doi:10.5281/zenodo.14885382.",
   "Funding": [
     "National Natural Science Foundation of China (32020103009, awarded to L.W.)",
@@ -33,7 +33,10 @@
   "ReferencesAndLinks": [
     "https://doi.org/10.1038/s41467-025-57766-x",
     "https://doi.org/10.5281/zenodo.14885382",
-    "https://doi.org/10.5281/zenodo.14583770"
+    "https://doi.org/10.5281/zenodo.14583770",
+    "https://doi.org/10.5281/zenodo.14885381",
+    "https://doi.org/10.5281/zenodo.3259369",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11903871/"
   ],
   "DatasetDOI": "doi:10.5281/zenodo.14885382",
   "Keywords": [
@@ -46,7 +49,10 @@
     "hippocampus",
     "ripples",
     "object-location memory",
-    "epilepsy"
+    "epilepsy",
+    "sleep spindles",
+    "object-location association",
+    "Sanbo Brain Hospital"
   ],
   "SourceDatasets": [
     {

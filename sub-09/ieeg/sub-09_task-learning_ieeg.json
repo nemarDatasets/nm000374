@@ -1,6 +1,7 @@
 {
   "TaskName": "learning",
   "TaskDescription": "Object-location association learning stage (50 objects, each paired with a characteristic sound; feedback after placement). Segment extracted by the authors from 10 s before the first stimulus to 10 s after the last stimulus.",
+  "Instructions": "Preview: items paired with a characteristic sound were shown at their locations and participants were instructed to remember the location of each item. Learning: each item appeared in the screen centre (with its sound); participants placed it at the remembered location and confirmed with a button press, then saw the correct location as feedback for 3000 ms; rounds repeated (random order) until all items were placed within 3.4 cm of the correct location on two consecutive rounds (Duan et al. 2025 Nat Commun 16:2472, doi:10.1038/s41467-025-57766-x, Methods and Fig. 1).",
   "InstitutionName": "Sanbo Brain Hospital, Capital Medical University",
   "InstitutionAddress": "Beijing, China",
   "Manufacturer": "Nicolet (Thermo Nicolet Corporation)",
@@ -13,6 +14,7 @@
   "ElectrodeManufacturer": "Huake-Hengsheng Medical Technology Co. Ltd, Beijing, China",
   "iEEGElectrodeInfo": "Intracerebral multiple-contact electrodes, 8-16 contacts, contact length 2 mm, diameter 0.8 mm, inter-contact distance 1.5 mm (Duan et al. 2025)",
   "iEEGPlacementScheme": "Stereotactic depth electrodes, robot-assisted implantation, placement by clinical needs",
+  "iEEGElectrodeGroups": "Recorded contacts grouped by electrode label (letter part of the release channel name, prime included), 7 labels (number of recorded contacts per label): B' (14), C' (15), D' (16), G' (12), R' (9), S' (14), X' (15). Stereotactic depth electrodes with 8-16 contacts each (paper).",
   "SEEGChannelCount": 95,
   "ECOGChannelCount": 0,
   "EEGChannelCount": 0,
@@ -20,5 +22,10 @@
   "TriggerChannelCount": 0,
   "RecordingType": "continuous",
   "RecordingDuration": 1264.10546875,
-  "EpilepticActivity": "No seizure occurred during the task period and sleep (Duan et al. 2025)."
+  "EpilepticActivity": "No seizure occurred during the task period and sleep (Duan et al. 2025).",
+  "ECGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "iEEGGround": "n/a (not documented in the paper or the Zenodo release)",
+  "SoftwareVersions": "n/a (acquisition software not documented; the Zenodo record states the data were processed using MATLAB 2019b)"
 }

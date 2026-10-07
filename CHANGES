@@ -1,2 +1,5 @@
+1.0.1 2026-10-07
+  - 2026-10-07 metadata enrichment: participants.tsv gains per-subject TMR cue counts (Supplementary Table S3), cue repetitions (Methods) and electrode-label counts (release); participants.json describes every column with sources; dataset_description.json adds concept/code DOIs, PMC link and keywords; *_ieeg.json add Instructions, iEEGElectrodeGroups, iEEGGround (n/a), ECG/EOG/EMG counts; README restructured (cohort, task timing, scalp/EOG note, mapping evidence, corrected prime/hemisphere note). Sources: Duan et al. 2025 Nat Commun doi:10.1038/s41467-025-57766-x (PMC11903871) and its Supplementary Information; Zenodo 14885382.
+
 1.0.0 2026-10-06
   - Initial iEEG-BIDS packaging of Zenodo record 14885382 (no signal processing).

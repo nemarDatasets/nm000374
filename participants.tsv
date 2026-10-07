@@ -1,12 +1,12 @@
-participant_id	source_id	age	sex	group	total_recording_sites	hippocampal_contacts	electrode_laterality	seizure_onset_zone	seizure_laterality
-sub-01	sub01	n/a	n/a	patient	103	7	R	Transverse temporal	R
-sub-02	sub02	n/a	n/a	patient	114	13	Bilateral	Temporal pole	L
-sub-03	sub03	n/a	n/a	patient	106	12	Bilateral	Right ventricular trigone	R
-sub-04	sub04	n/a	n/a	patient	113	11	Bilateral	MTL	L
-sub-05	sub05	n/a	n/a	patient	110	7	R	MTL	R
-sub-06	sub06	n/a	n/a	patient	110	9	Bilateral	Insular /MTL/IPL	R
-sub-07	sub07	n/a	n/a	patient	101	3	L	Temporal pole/MTL	L
-sub-08	sub08	n/a	n/a	patient	110	7	R	MTL	R
-sub-09	sub09	n/a	n/a	patient	95	6	R	Temporal lobe	R
-sub-10	sub10	n/a	n/a	patient	115	11	R	Insular /MTL	R
-sub-11	sub11	n/a	n/a	patient	112	10	Bilateral	MTL/LTL	R
+participant_id	source_id	age	sex	group	total_recording_sites	hippocampal_contacts	electrode_laterality	seizure_onset_zone	seizure_laterality	n_electrode_groups	tmr_cue_repetitions	tmr_cues_total	tmr_cues_N3	tmr_cues_N2	tmr_cues_N1	tmr_cues_wake
+sub-01	sub01	n/a	n/a	patient	103	7	R	Transverse temporal	R	10	3	75	75	0	0	0
+sub-02	sub02	n/a	n/a	patient	114	13	Bilateral	Temporal pole	L	17	4	100	88	12	0	0
+sub-03	sub03	n/a	n/a	patient	106	12	Bilateral	Right ventricular trigone	R	12	6	150	134	12	4	0
+sub-04	sub04	n/a	n/a	patient	113	11	Bilateral	MTL	L	14	6	150	106	44	0	0
+sub-05	sub05	n/a	n/a	patient	110	7	R	MTL	R	8	6	150	150	0	0	0
+sub-06	sub06	n/a	n/a	patient	110	9	Bilateral	Insular /MTL/IPL	R	13	6	150	109	41	0	0
+sub-07	sub07	n/a	n/a	patient	101	3	L	Temporal pole/MTL	L	11	6	150	44	91	7	8
+sub-08	sub08	n/a	n/a	patient	110	7	R	MTL	R	12	6	150	83	61	0	6
+sub-09	sub09	n/a	n/a	patient	95	6	R	Temporal lobe	R	7	6	150	92	58	0	0
+sub-10	sub10	n/a	n/a	patient	115	11	R	Insular /MTL	R	10	6	150	0	140	10	0
+sub-11	sub11	n/a	n/a	patient	112	10	Bilateral	MTL/LTL	R	8	6	150	0	78	69	3

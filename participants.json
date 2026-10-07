@@ -6,27 +6,29 @@
     "Description": "Subject identifier in the Zenodo release (file name stem)"
   },
   "age": {
-    "Description": "Age in years. Not reported per participant; group: mean 23.9 +/- 5.4 (SD) years (Duan et al. 2025, Methods)",
+    "Description": "Age in years. Not reported per participant (Supplementary Table S1, cited in the paper as 'Demographic information for each patient', lists recording sites only); cohort: 11 patients, mean age 23.9 +/- 5.4 (SD) years (Duan et al. 2025 Nat Commun 16:2472, doi:10.1038/s41467-025-57766-x, Methods)",
     "Units": "year"
   },
   "sex": {
-    "Description": "Not reported per participant; group: 2 females, 9 males (Duan et al. 2025, Methods)",
+    "Description": "Not reported per participant; cohort: 2 females, 9 males (Duan et al. 2025 Nat Commun 16:2472, doi:10.1038/s41467-025-57766-x, Methods)",
     "Levels": {
       "M": "male",
       "F": "female"
     }
   },
   "group": {
-    "Description": "Patients with medically refractory temporal lobe epilepsy implanted with depth electrodes",
+    "Description": "Patients with medically refractory temporal lobe epilepsy, stereotactically implanted with depth contacts to identify epileptogenic zones, recruited at Beijing Sanbo Brain Hospital; all reported normal or corrected-to-normal visual acuity and normal colour vision (Duan et al. 2025 Nat Commun 16:2472, doi:10.1038/s41467-025-57766-x, Methods)",
     "Levels": {
       "patient": "epilepsy patient"
     }
   },
   "total_recording_sites": {
-    "Description": "Total recording sites (Duan et al. 2025, Supplementary Table S1); equals the channel count of the release"
+    "Description": "Total recording sites (Duan et al. 2025, Supplementary Table S1); equals the channel count of the release",
+    "Units": "count"
   },
   "hippocampal_contacts": {
-    "Description": "Number of hippocampal contacts (Supplementary Table S1)"
+    "Description": "Number of hippocampal contacts (Supplementary Table S1)",
+    "Units": "count"
   },
   "electrode_laterality": {
     "Description": "Implanted hemisphere(s) (Supplementary Table S1)",
@@ -45,5 +47,33 @@
       "L": "left",
       "R": "right"
     }
+  },
+  "n_electrode_groups": {
+    "Description": "Number of distinct electrode (shaft) labels in the channel names of this subject's release file (letter part of e.g. \"A' 01\"; = distinct values of the `group` column of electrodes.tsv). Derived from the Zenodo 14885382 release, not reported in the paper.",
+    "Units": "count"
+  },
+  "tmr_cue_repetitions": {
+    "Description": "Number of times each cued sound was presented during NREM sleep: 6 per the Methods, except 3 and 4 for the first two participants of Supplementary Table S3 (Subject ID 1 and 2) (Duan et al. 2025 Nat Commun 16:2472, doi:10.1038/s41467-025-57766-x, Methods)",
+    "Units": "count"
+  },
+  "tmr_cues_total": {
+    "Description": "Total number of TMR cues (cued sounds of learned items; control guitar-strum sounds not counted) (Duan et al. 2025 Nat Commun 16:2472, doi:10.1038/s41467-025-57766-x, Supplementary Table S3, column '# The number of TMR cues')",
+    "Units": "count"
+  },
+  "tmr_cues_N3": {
+    "Description": "Number of TMR cues delivered in NREM stage 3 (offline AASM staging, 30-s windows) (Duan et al. 2025 Nat Commun 16:2472, doi:10.1038/s41467-025-57766-x, Supplementary Table S3, column '# The number of TMR cues')",
+    "Units": "count"
+  },
+  "tmr_cues_N2": {
+    "Description": "Number of TMR cues delivered in NREM stage 2 (offline AASM staging, 30-s windows) (Duan et al. 2025 Nat Commun 16:2472, doi:10.1038/s41467-025-57766-x, Supplementary Table S3, column '# The number of TMR cues')",
+    "Units": "count"
+  },
+  "tmr_cues_N1": {
+    "Description": "Number of TMR cues delivered in NREM stage 1 (offline AASM staging, 30-s windows) (Duan et al. 2025 Nat Commun 16:2472, doi:10.1038/s41467-025-57766-x, Supplementary Table S3, column '# The number of TMR cues')",
+    "Units": "count"
+  },
+  "tmr_cues_wake": {
+    "Description": "Number of TMR cues delivered during wake (offline AASM staging, 30-s windows) (Duan et al. 2025 Nat Commun 16:2472, doi:10.1038/s41467-025-57766-x, Supplementary Table S3, column '# The number of TMR cues')",
+    "Units": "count"
   }
 }
