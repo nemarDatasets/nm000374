@@ -1,0 +1,141 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Wei Duan": {},
+    "Zhansheng Xu": {},
+    "Dong Chen": {
+      "orcid": "0000-0002-9537-1888"
+    },
+    "Jing Wang": {},
+    "Jiali Liu": {},
+    "Zheng Tan": {},
+    "Xue Xiao": {},
+    "Pengcheng Lv": {},
+    "Mengyang Wang": {},
+    "Ken A. Paller": {
+      "orcid": "0000-0003-4415-4143"
+    },
+    "Nikolai Axmacher": {
+      "orcid": "0000-0002-0475-6492"
+    },
+    "Liang Wang": {
+      "orcid": "0000-0001-9434-7571"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.14885382",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1038/s41467-025-57766-x",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.5281/zenodo.14583770",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.5281/zenodo.14885381",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.5281/zenodo.3259369",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000374",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000374",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "32020103009"
+    },
+    {
+      "funder_name": "STI2030-Major Projects",
+      "award_number": "2022ZD0205000"
+    },
+    {
+      "funder_name": "National Key Research and Development Program of China",
+      "award_number": "2024YFF1206500"
+    },
+    {
+      "funder_name": "Ministry Key Project",
+      "award_number": "GW0890006"
+    },
+    {
+      "funder_name": "Scientific Foundation of the Institute of Psychology, Chinese Academy of Sciences",
+      "award_number": "E2CX4215CX"
+    },
+    {
+      "funder_name": "European Research Council",
+      "award_number": "864164",
+      "award_title": "ERC-CoG GridRepresentations"
+    }
+  ],
+  "title": "Electrophysiological signatures underlying variability in human memory consolidation: raw intracranial EEG (learning and sleep TMR)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "16.96 GB (56 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "Raw stereo-EEG (intracranial EEG) recordings from 11 patients with medically refractory temporal lobe epilepsy at Sanbo Brain Hospital, Beijing. Data were collected during learning of object-location associations and during targeted memory reactivation (TMR) with sounds in NREM sleep. The dataset supports investigation of electrophysiological signatures, such as hippocampal ripples and sleep spindles, that underlie variability in human memory consolidation. Data are repackaged in iEEG-BIDS from the authors' Zenodo release without signal processing.",
+  "methods_description": "Depth electrode recordings were acquired with a Nicolet system (128 channels, 512 Hz) using 8-16 contact depth electrodes. Participants learned 50 object-location associations, then slept while 25 learned sounds and 25 control sounds were presented during NREM stage 2/3 (detected with scalp EEG). Segments were extracted from 10 s before the first stimulus to 10 s after the last. Original arrays were converted losslessly to BrainVision float32 with no filtering, resampling, or re-referencing.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "memory consolidation"
+    },
+    {
+      "term": "targeted memory reactivation"
+    },
+    {
+      "term": "sleep"
+    },
+    {
+      "term": "Hippocampus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
+  "source_hash": "0057263308a933afc9c9e8d26459d8ad6a0a582ec871136e31adc03e86a7e57b"
+}
