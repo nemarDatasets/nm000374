@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000374-blue)](https://doi.org/10.82901/nemar.nm000374)
+
 # Electrophysiological signatures underlying variability in human memory consolidation — raw intracranial EEG
 
 ## Overview
