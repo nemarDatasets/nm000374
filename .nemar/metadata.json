@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Electrophysiological signatures underlying variability in human memory consolidation: raw intracranial EEG (learning and sleep TMR)",
-  "description": "Raw stereo-EEG (intracranial EEG) recordings from 11 patients with medically refractory temporal lobe epilepsy at Sanbo Brain Hospital, Beijing. Data were acquired during learning of object-location associations and during targeted memory reactivation (TMR) with sounds in NREM sleep. The dataset supports investigation of electrophysiological signatures, such as hippocampal ripples and sleep spindles, that underlie variability in human memory consolidation. It is re-packaged in iEEG-BIDS from the authors' Zenodo release.",
-  "methods_description": "Depth electrode (SEEG) recordings were acquired with a Nicolet system (128 channels, 512 Hz). In the learning task, 50 objects were associated with grid locations until criterion was reached. In the sleep task, 25 cued sounds and 25 control sounds were presented during NREM stage 2/3, detected via scalp EEG, with low-intensity white noise in the background. Raw MATLAB arrays were losslessly converted to BrainVision float32 format with BIDS sidecars.",
+  "description": "Raw stereo-EEG (intracranial EEG) recordings from 11 patients with medically refractory temporal lobe epilepsy at Sanbo Brain Hospital, Beijing. Data were acquired during learning of object-location associations and during targeted memory reactivation (TMR) with sounds in NREM sleep. The dataset supports investigation of electrophysiological signatures that explain variability in human memory consolidation. It is a lossless BIDS re-packaging of the authors' Zenodo release.",
+  "methods_description": "Depth electrodes with 8-16 contacts were recorded on a Nicolet system (128 channels, 512 Hz). In the learning task, participants learned 50 object-location associations on a grid until reaching criterion. After a pre-sleep test, 25 cued sounds and 25 control sounds were presented during NREM stage 2/3 sleep, detected with scalp EEG. Original MATLAB arrays were converted to BrainVision float32 without filtering, resampling or re-referencing.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -50,9 +50,9 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
     },
     {
-      "term": "Epilepsy",
+      "term": "Epilepsy, Temporal Lobe",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004833"
     }
   ],
   "related_identifiers": [
@@ -137,5 +137,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "3637abe36ff1c415c7e694e6871827a5cf06d4b3c28a10ab733e52bf1906933d"
+  "source_hash": "ae1ba789c40f280ae3cc9831815ae68689416ac1ae307dde144feaacfc855a58"
 }
