@@ -38,7 +38,7 @@
     "https://doi.org/10.5281/zenodo.3259369",
     "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11903871/"
   ],
-  "DatasetDOI": "doi:10.5281/zenodo.14885382",
+  "DatasetDOI": "10.82901/nemar.nm000374",
   "Keywords": [
     "intracranial EEG",
     "stereo-EEG",
@@ -67,5 +67,6 @@
       "Description": "Lossless re-packaging of the authors' MATLAB arrays into BrainVision (float32) with BIDS sidecars; no filtering, resampling, re-referencing or channel removal.",
       "CodeURL": "n/a"
     }
-  ]
+  ],
+  "Version": "1.0.0"
 }
