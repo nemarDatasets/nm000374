@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Electrophysiological signatures underlying variability in human memory consolidation: raw intracranial EEG (learning and sleep TMR)",
-  "description": "Stereo-EEG recordings from 11 patients with medically refractory temporal lobe epilepsy at Sanbo Brain Hospital, Beijing, collected during object-location association learning and during targeted memory reactivation (TMR) with sounds in NREM sleep. The dataset supports investigation of the electrophysiological signatures, including hippocampal ripples and sleep spindles, that underlie variability in human memory consolidation. Data are repackaged losslessly in iEEG-BIDS from the authors' Zenodo release.",
-  "methods_description": "Depth-electrode iEEG was recorded with a Nicolet system (128 channels, 512 Hz) in patients implanted for clinical epileptogenic zone localisation. In the learning task, participants placed 50 objects at grid locations with feedback until criterion. During subsequent NREM sleep, 25 cued sounds paired with learned objects and 25 control sounds were presented, with sleep staged from scalp EEG. The original MATLAB arrays were converted to BrainVision float32 with no filtering, resampling or re-referencing.",
+  "description": "Stereo-EEG recordings from 11 patients with medically refractory temporal lobe epilepsy at Sanbo Brain Hospital, Beijing. Data were collected during learning of object-location associations and during targeted memory reactivation (TMR) with sounds in NREM sleep. The dataset supports investigation of the electrophysiological signatures, including hippocampal ripples and sleep spindles, that underlie variability in human memory consolidation. It is a lossless BIDS re-packaging of the authors' raw Zenodo release.",
+  "methods_description": "Depth electrode iEEG was recorded with a Nicolet system (128 channels, 512 Hz). Patients learned 50 object-location associations on a grid, then slept while cued sounds were presented during NREM stage 2/3, detected with scalp EEG. Each sound was presented 6 times, about 5.5 s apart. Raw MATLAB arrays were converted to BrainVision float32 with BIDS sidecars, with no filtering, resampling or re-referencing.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -42,7 +42,9 @@
       "term": "targeted memory reactivation"
     },
     {
-      "term": "sleep"
+      "term": "Sleep",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012890"
     },
     {
       "term": "Hippocampus",
@@ -50,7 +52,9 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
     },
     {
-      "term": "temporal lobe epilepsy"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     }
   ],
   "related_identifiers": [
