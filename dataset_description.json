@@ -1,5 +1,5 @@
 {
-  "Name": "Electrophysiological signatures underlying variability in human memory consolidation: raw intracranial EEG (learning and sleep TMR)",
+  "Name": "Duan-2025a-electrophysiological-10.1038/s41467-025-57766-x",
   "BIDSVersion": "1.10.0",
   "DatasetType": "raw",
   "License": "CC-BY-4.0",
@@ -68,5 +68,5 @@
       "CodeURL": "n/a"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
